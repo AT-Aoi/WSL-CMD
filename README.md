@@ -12,12 +12,13 @@ $ sudo cp cmd /usr/bin
 
 # Usage
 
-1. Run interactively with no command line arguments
+1. Run interactively with no command line arguments:
 
 ```bash
 $ cmd
 ```
-2. Run one command
+
+2. Run one command:
 
 ```bash
 $ cmd echo %USERPROFILE%
