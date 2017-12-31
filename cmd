@@ -2,8 +2,15 @@
 
 CMD='/mnt/c/Windows/System32/cmd.exe'
 
-HELP_STRING='Usage: cmd [command]'
-VERSION_NUMBER='0.0.1'
+HELP_STRING='Usage: cmd [COMMAND]...
+  If COMMAND is provided, run that COMMAND then exit.
+  If COMNAND is not provided, run cmd interactively.
+  
+Options:
+  --help                    Show this help.
+  --version                 Show the version number.'
+
+VERSION_NUMBER='0.0.2'
 VERSION_STRING="WSL-CMD version $VERSION_NUMBER"
 
 if [[ $# -eq 0 ]] ; then
